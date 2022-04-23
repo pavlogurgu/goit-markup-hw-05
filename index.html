@@ -19,7 +19,7 @@
       <nav class="nav">
         <a href="./index.html" class="logo logo-blue logo-link">Web<span class="logo-black">Studio</span></a>
         <ul class="site-nav">
-          <li><a href="index.html" class="link active-page">Студія</a></li>
+          <li class="active"><a href="index.html" class="link active-page">Студія</a></li>
           <li><a href="portfolio.html" class="page-header link">Портфоліо</a></li> 
           <li><a href="" class="page-header link">Контакти</a></li>
         </ul>
@@ -47,13 +47,6 @@
         <div class="container">
           <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button pointer" data-modal-open>Замовити послугу</button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-            <svg width="30" height="30" data-modal-close>
-              <use href="./images/icons/symbol-defs.svg#close-icon"></use>
-            </svg>
-            </div>
-          </div>
         </div>
       </section>
       <!-- Друга секція -->
@@ -110,14 +103,23 @@
         <div class="container">
         <h2 class="title">Чим ми займаємось</h2>
         <ul class="our-work-images">
-          <li>
-            <img src=".\images\img1.png" alt="Бек-енд розробка" width="370" />
+          <li class="our-work">
+            <img src=".\images\img1.png" alt="Бек-енд розробка" width="370" class="our-work"/>
+            <p class="our-work-cover">
+              Десктопні додатки
+            </p>
           </li>
-          <li>
-            <img src=".\images\img2.png" alt="Фронт-енд розробка" width="370" />
+          <li class="our-work">
+            <img src=".\images\img2.png" alt="Фронт-енд розробка" width="370"/>
+            <p class="our-work-cover">
+              Мобільні додатки
+            </p>
           </li>
-          <li>
-            <img src=".\images\img3.png" alt="Розробка стилю" width="370" />
+          <li class="our-work">
+            <img src=".\images\img3.png" alt="Розробка стилю" width="370"/>
+            <p class="our-work-cover">
+              Дизайнерські рішення
+            </p>
           </li>
         </ul>
       </div>
@@ -418,6 +420,15 @@
       </div>
       </div>
     </footer>
-  <script src="./js/modal.js"></script>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+      <svg width="30" height="30">
+        <use href="./images/icons/symbol-defs.svg#close-icon"></use>
+      </svg>
+      </button>
+      </div>
+      </div>
+      <script src="./js/modal.js"></script>
   </body>
 </html>
