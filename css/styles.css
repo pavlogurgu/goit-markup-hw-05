@@ -32,9 +32,7 @@ img {
 .link {
   text-decoration: none;
   font-style: normal;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, background-color, fill;
+  
   
 }
 
@@ -263,6 +261,9 @@ header .container {
   align-items: center;
   justify-content: center;
   fill: var(--soc-icon);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color, fill;
 }
 .client-link:hover,
 .client-link:focus {
@@ -382,6 +383,9 @@ header .container {
   align-items: center;
   justify-content: center;
   fill: var(--soc-icon);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, fill;
 }
 .team-soc-item + .team-soc-item {
   margin-left: 10px;
@@ -409,6 +413,9 @@ header .container {
   align-items: center;
   justify-content: center;
   fill: var(--white-logo);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 .soc-item-footer + .soc-item-footer {
   margin-left: 10px;
@@ -417,9 +424,7 @@ header .container {
 .soc-link-footer:hover,
 .soc-link-footer:focus {
   background-color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, background-color;
+ 
 }
 .button:focus,
 .button:hover {
@@ -553,6 +558,9 @@ header .container {
   letter-spacing: 0.02em;
 
   color: var(--title-name);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .header {
   border-bottom: 1px solid var(--border-one);
@@ -572,6 +580,9 @@ header .container {
   color: var(--title-text);
   display: flex;
   fill: var(--title-text);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
 }
 .header-contacts a:not(:last-child) {
   margin-right: 50px;
@@ -612,6 +623,9 @@ header .container {
   border-color: transparent;
   background-color: var(--team-backround);
   padding: 6px 22px 6px 22px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, box-shadow;
 }
 .button-selected {
   color: var(--white-text);
@@ -653,6 +667,9 @@ header .container {
   display: block;
   text-decoration: none;
   font-style: normal;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
 
 }
 .portfolio-link:hover,
@@ -759,6 +776,9 @@ header .container {
   letter-spacing: 0.03em;
 
   color: var(--white-text);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .footer-contacts {
   font-weight: 400;
@@ -769,6 +789,9 @@ header .container {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .footer-items:not(:last-child) {
   margin-bottom: 9px;
